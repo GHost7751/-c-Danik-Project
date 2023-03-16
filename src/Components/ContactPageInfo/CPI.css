@@ -1,0 +1,17 @@
+.cpi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.cpi_title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: bolt;
+    margin-bottom: 15px;
+}
+.cpi_info{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    margin-bottom: 100px;
+}

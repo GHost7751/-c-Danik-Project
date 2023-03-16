@@ -1,0 +1,23 @@
+.PriceTitle{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 50px;
+    grid-gap: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    padding-right: 20px;
+    margin-left: 350px;
+}
+.PriceBlock2{
+    margin-bottom: 30px;
+}
+.PriceBlock3{
+    margin-bottom: 30px;
+}
+.PriceBlock4{
+    margin-bottom: 30px;
+}

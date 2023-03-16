@@ -1,0 +1,35 @@
+.nav_buttonTrans{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin-left: 150px;
+    margin-right: 150px;
+    color : black
+   }
+   
+   .nav_butt_oneTransfer{
+       
+       cursor: pointer;
+       transition: all .3s ease-in-out;
+       margin: 0.5rem;
+       padding: 10px 15px;
+       color : black;
+       border-radius: 20px;
+   }
+   
+   .nav_butt_oneTransfer:hover {
+       background-color : #017592;
+   
+   }
+   .transfer{
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 40px;
+    
+}
+.transfer_title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 21px;
+}

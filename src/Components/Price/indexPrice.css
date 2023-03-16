@@ -1,0 +1,66 @@
+.secTitle{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 50px;
+    grid-gap: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+    font-family: 'Roboto Mono', monospace;
+}
+table,tr,th,td{
+    border: 1px solid black;
+    padding-right: 20px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.paroniteImg{
+    
+    margin: 0 15%;
+    width: 80%;
+    height: 300px;
+}
+.secTable{
+    margin-left: 130px;
+    width: 100%;
+}
+.priceTitle{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: bolt;
+    margin-bottom: 15px;
+}
+
+.priceButt{
+    list-style: none;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+   }
+   
+.price_butt_one{       
+       cursor: pointer;
+       transition: all .3s ease-in-out;
+       margin: 0.5rem;
+       padding: 10px 15px;
+       color : black;
+       border : 1px solid black;
+       border-radius: 20px;
+       /* background-color : blue; */
+       text-align: center;
+       opacity: 1;
+   }
+.price_butt_one:hover {
+       background-color : #017592;
+   }
+
+.price_butt_back{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    margin-bottom: 15px;
+}

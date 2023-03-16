@@ -1,0 +1,32 @@
+.InfoHomePage{
+    display: flex;
+    flex-direction: column;
+}
+
+.butInfo{
+    width: 150px;
+    height: 60px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    margin-top: 30px;
+    padding: 10px 15px;
+    color : white;
+    background-color : black;
+    border-radius: 20px;
+    margin-left: 500px;
+}
+
+.butInfo:hover {
+    background-color : #017592;
+    border: 0;
+
+}
+
+.discripInfo{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-decoration: double;
+    list-style: none;
+    color : black;
+
+}
