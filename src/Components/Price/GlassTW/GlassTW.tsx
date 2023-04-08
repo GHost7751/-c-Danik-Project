@@ -9,11 +9,11 @@ const GlassTW = () => {
         </div>
         <div className='priceBody'>
             <div className='priceButt'>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Наконечник кварцевый</li></Link>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стекло кварцевое прямоугольное</li></Link>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стекло кварцевое смотровое</li></Link>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стержень кварцевый</li></Link>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Трубка кварцевая</li></Link>
+                <Link to='/StekloKvarc/NakonKvarc' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Наконечник кварцевый</li></Link>
+                <Link to='/StekloKvarc/StekloKvarc2' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стекло кварцевое прямоугольное</li></Link>
+                <Link to='/StekloKvarc/StekloKvarc' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стекло кварцевое смотровое</li></Link>
+                <Link to='/StekloKvarc/SterjenKvarc' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стержень кварцевый</li></Link>
+                <Link to='/StekloKvarc/TrubkaKvarc' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Трубка кварцевая</li></Link>
                 
             </div>
         </div>

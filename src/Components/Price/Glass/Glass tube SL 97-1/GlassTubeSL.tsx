@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../../Price/indexPrice.css'
 
 const GlassTubeSL = () => {
@@ -80,7 +81,9 @@ const GlassTubeSL = () => {
                     </tr>
                 </tbody>
             </table>
-
+            <div>
+             <Link to='/StekloSmotrovoe' style={{ textDecoration: 'none' }}><li className='price_butt_back'>Назад</li></Link>
+        </div>
         </div>
 
     );

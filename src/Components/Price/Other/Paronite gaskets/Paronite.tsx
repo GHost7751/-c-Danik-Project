@@ -1,5 +1,6 @@
 import React from 'react';
 import './Paronite.css'
+import { Link } from 'react-router-dom';
 
 const Paronite = () => {
     return (
@@ -317,6 +318,9 @@ const Paronite = () => {
                     Затяжка гаек (3) производится динамометрическим ключом моментом затяжки М. Расчетное удельное дав­ление на прокладку при начальной затяжке шпилек или во время работы должно быть не менее  qmin = 100 кгс/см2 и не более qmax = 1500 кгс/см2.
                     <br />
                 </p>
+            </div>
+            <div>
+                <Link to='/Other' style={{ textDecoration: 'none' }}><li className='price_butt_back'>Назад</li></Link>
             </div>
 
         </div>

@@ -10,9 +10,9 @@ const OtherPage = () => {
             </div>
             <div className='priceBody'>
                 <div className='priceButt'>
-                    <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Прокладки графитовые</li></Link>
-                    <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Прокладки паронитовые</li></Link>
-                    <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>СЛЮДА СМОГ</li></Link>
+                    <Link to='/Other/1' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Прокладки графитовые</li></Link>
+                    <Link to='/Other/2' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Прокладки паронитовые</li></Link>
+                    <Link to='/Other/3' style={{ textDecoration: 'none' }}><li className='price_butt_one'>СЛЮДА СМОГ</li></Link>
                     
                 </div>
             </div>

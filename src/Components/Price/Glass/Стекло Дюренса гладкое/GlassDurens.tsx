@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../indexPrice.css'
 
 const GlassDurens = () => {
@@ -202,7 +203,9 @@ const GlassDurens = () => {
                     <br />
                 </p>
             </div>
-
+            <div>
+             <Link to='/StekloSmotrovoe' style={{ textDecoration: 'none' }}><li className='price_butt_back'>Назад</li></Link>
+        </div>
         </div>
     );
 };

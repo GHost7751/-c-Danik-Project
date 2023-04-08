@@ -9,11 +9,10 @@ const TankEq = () => {
         </div>
         <div className='priceBody'>
             <div className='priceButt'>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Наконечник кварцевый</li></Link>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стекло кварцевое прямоугольное</li></Link>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стекло кварцевое смотровое</li></Link>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Стержень кварцевый</li></Link>
-                <Link to='/Graphit' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Трубка кварцевая</li></Link>
+                <Link to='/TankQ/DuhKlap' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Дыхательные клапаны</li></Link>
+                <Link to='/TankQ/LukRez' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Люки резервуаров</li></Link>
+                <Link to='/TankQ/EquipmentP' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Оборудование слива-налива нефтепродуктов</li></Link>
+                <Link to='/TankQ/FireF' style={{ textDecoration: 'none' }}><li className='price_butt_one'>Предохранители огневые</li></Link>
                 
             </div>
         </div>

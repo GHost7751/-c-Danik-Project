@@ -1,5 +1,6 @@
 import React from 'react';
 import './PriceSmog.css'
+import { Link } from 'react-router-dom';
 
 const PriceSmog = () => {
     return (
@@ -196,6 +197,9 @@ const PriceSmog = () => {
                     Крупные кристаллы слюды мусковит встречаются в месторождениях Мамско-Чуйского района Иркутской области, Чупино-Лоухского района Карелии, Енско-Кольского района Мурманской обл. Известны также месторождения Индии, Бразилии, США.
                     <br />
                 </div>
+            </div>
+            <div>
+                <Link to='/Other' style={{ textDecoration: 'none' }}><li className='price_butt_back'>Назад</li></Link>
             </div>
 
         </div>

@@ -335,7 +335,7 @@ const GlassKlinger = () => {
                 </ul>
             </div>
             <div>
-             <Link to='/Price' style={{ textDecoration: 'none' }}><li className='price_butt_back'>Назад</li></Link>
+             <Link to='/StekloSmotrovoe' style={{ textDecoration: 'none' }}><li className='price_butt_back'>Назад</li></Link>
         </div>
 
         </div>

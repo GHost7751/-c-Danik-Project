@@ -1,5 +1,6 @@
 import React from 'react';
 import './Graphit.css'
+import { Link } from 'react-router-dom';
 
 const Graphite = () => {
     return (
@@ -304,6 +305,9 @@ const Graphite = () => {
                     Затяжку гаек (3) производить динамометрическим ключом моментом затяжки М. Расчетное удельное дав­ление на прокладку при начальной затяжке шпилек или во время работы должно быть не менее  qmin = 100 кгс/см2 и не более qmax = 1500 кгс/см2.
                     <br />
                     <br />
+            </div>
+            <div>
+                <Link to='/Other' style={{ textDecoration: 'none' }}><li className='price_butt_back'>Назад</li></Link>
             </div>
         </div>
     );
