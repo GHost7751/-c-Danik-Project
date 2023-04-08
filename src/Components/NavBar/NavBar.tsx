@@ -6,7 +6,7 @@ const NavBar = () => {
     return (
         <div className='navbar'>
             <div className='nav_title'>
-                My Title
+            СнабКомплектКомпани
             </div>
             <div className='nav_button'>
                    <Link to='/' style={{ textDecoration: 'none' }}><li className='nav_butt_one'>Главная</li></Link>
